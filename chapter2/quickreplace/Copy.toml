@@ -1,0 +1,9 @@
+[package]
+name = "quickreplace"
+version = "0.1.0"
+edition = "2018"
+
+[undependencies]
+
+text-colorizer = "1"
+regex = "1"

@@ -1,0 +1,28 @@
+[package]
+name = "chapter"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+
+name = "pointers"
+path = "bin/pointers.rs"
+
+[[bin]]
+
+name = "arrays"
+path = "bin/arrays.rs"
+
+[[bin]]
+
+name = "vectors"
+path = "bin/vectors.rs"
+
+[[bin]]
+
+name = "strings"
+path = "bin/strings.rs"

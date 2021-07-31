@@ -1,0 +1,27 @@
+[package]
+name = "chapter"
+version = "0.1.0"
+edition = "2018"
+default-run = "main"
+
+[dependencies]
+
+[[bin]]
+
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+
+name = "safety"
+path = "bin/safety.rs"
+
+[[bin]]
+
+name = "structs"
+path = "bin/structs.rs"
+
+[[bin]]
+
+name = "lifetimes"
+path = "bin/lifetimes.rs"

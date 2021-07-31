@@ -1,0 +1,27 @@
+[package]
+name = "chapter"
+version = "0.1.0"
+edition = "2018"
+default-run = "main"
+
+[dependencies]
+
+[[bin]]
+
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+
+name = "results"
+path = "bin/results.rs"
+
+[[bin]]
+
+name = "move"
+path = "bin/move.rs"
+
+[[bin]]
+
+name = "read_nums"
+path = "bin/read_nums.rs"

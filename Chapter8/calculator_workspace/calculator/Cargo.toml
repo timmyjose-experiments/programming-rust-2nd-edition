@@ -1,0 +1,11 @@
+[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+add = { path = "../add" }
+subtract = { path = "../subtract" }
+multiply = { path = "../multiply" }
+divide = { path = "../divide" }
